@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unisdk_array_month">
+        <item> 一月 </item>
+        <item> 二月 </item>
+        <item> 三月 </item>
+        <item> 四月 </item>
+        <item> 五月 </item>
+        <item> 六月 </item>
+        <item> 七月 </item>
+        <item> 八月 </item>
+        <item> 九月 </item>
+        <item> 十月 </item>
+        <item> 十一月 </item>
+        <item> 十二月 </item>
+    </string-array>
+    <string-array name="unisdk_days_array">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+    <string name="unisdk_Cancel">取消</string>
+    <string name="unisdk_Language">语言</string>
+    <string name="unisdk_accept">接受</string>
+    <string name="unisdk_account_does_not_exist">帐户不存在</string>
+    <string name="unisdk_account_does_not_exist_2">电话号码/电子邮件/用户名不存在(或用戶名已掛號的但它被刪除了,在这种情况下，用户名计数已经存在已经存在)</string>
+    <string name="unisdk_account_not_correct">电话号码/电子邮件/用户名不正确</string>
+    <string name="unisdk_action_sign_in_short">登录</string>
+    <string name="unisdk_birth_day_not">出生日期不符</string>
+    <string name="unisdk_birthday">出生日期 年/月/日。</string>
+    <string name="unisdk_change_language">改变语言</string>
+    <string name="unisdk_change_login_method">更改\n登录</string>
+    <string name="unisdk_change_pass">更改密码</string>
+    <string name="unisdk_chinese">中文</string>
+    <string name="unisdk_choose_gender">选择性别</string>
+    <string name="unisdk_close">关</string>
+    <string name="unisdk_confirm_password">确认密码</string>
+    <string name="unisdk_confirm_password_cannot_be_blank">确认密码不能为空</string>
+    <string name="unisdk_content">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</string>
+    <string name="unisdk_content_privacy_and_terms">隐私和条款的详细信息</string>
+    <string name="unisdk_continue_verify">要继续，请验证您的身份</string>
+    <string name="unisdk_create_account_desc">一个帐户即可使用您的所有服务</string>
+    <string name="unisdk_create_uniid_account">创建一个UniID帐户</string>
+    <string name="unisdk_demo_email">demo@gmail.com</string>
+    <string name="unisdk_do_you_have_account">你是不是已经有一个账号?</string>
+    <string name="unisdk_dont_have_account">没有帐号?</string>
+    <string name="unisdk_email">电子邮件</string>
+    <string name="unisdk_emailinvalid">电邮无效</string>
+    <string name="unisdk_english">English</string>
+    <string name="unisdk_error">错误</string>
+    <string name="unisdk_error_common">系统有问题，请稍后再试</string>
+    <string name="unisdk_error_email_owned_by_another">这个电子邮件已经是主要的或 归另一人所有!</string>
+    <string name="unisdk_female">女生</string>
+    <string name="unisdk_first_name">名</string>
+    <string name="unisdk_firstname_cannot_be_blank">名不能为空</string>
+    <string name="unisdk_forgot_pass">忘记密码</string>
+    <string name="unisdk_forgot_password">&lt;u>忘记密码？&lt;/u></string>
+    <string name="unisdk_gender">性别</string>
+    <string name="unisdk_generate_password">输入复杂的代码，和还没用于其他网站。</string>
+    <string name="unisdk_hint_birthday">输入出生日期 年/月/日。（可选）</string>
+    <string name="unisdk_hint_confirm_password">输入确认密码</string>
+    <string name="unisdk_hint_email">输入电子邮件（可选）</string>
+    <string name="unisdk_hint_first_name">输入名</string>
+    <string name="unisdk_hint_gender">选择性别（可选）</string>
+    <string name="unisdk_hint_last_name">输入性</string>
+    <string name="unisdk_hint_new_password">输入新的密码</string>
+    <string name="unisdk_hint_otp_code">输入 OTP</string>
+    <string name="unisdk_hint_password">输入密码</string>
+    <string name="unisdk_hint_phone_email_username">输入电话码/电子邮件/用户名</string>
+    <string name="unisdk_hint_phone_number">输入电话号码</string>
+    <string name="unisdk_hint_phone_number_create">输入电话号码</string>
+    <string name="unisdk_hint_username">输入用户名</string>
+    <string name="unisdk_invalid_password_2">输入至少8个字符，无法插入空格，堰（`）， 堰（\"），堰（\'）</string>
+    <string name="unisdk_lao">ພາ​ສາ​ລາວ</string>
+    <string name="unisdk_last_name">性</string>
+    <string name="unisdk_lastname_cannot_be_blank">性不能为空</string>
+    <string name="unisdk_length_password">密码不正确</string>
+    <string name="unisdk_lock_account">帐户已锁定或未激活</string>
+    <string name="unisdk_lock_desc"><![CDATA[已超过最大登录尝试次数。请在 <font color="#F47920">24小</font>时后重试]]></string>
+    <string name="unisdk_lock_title">您的帐户已被锁定</string>
+    <string name="unisdk_login">登录</string>
+    <string name="unisdk_login_success">登录成功</string>
+    <string name="unisdk_login_with_otp">&lt;u>使用OTP登录&lt;/u></string>
+    <string name="unisdk_login_with_password">&lt;u>用密码登录&lt;/u></string>
+    <string name="unisdk_male">男生</string>
+    <string name="unisdk_mess_confirm_privacy_and_terms">"通过注册，您已经接受 所有交易均受隐私和 UniID要求"</string>
+    <string name="unisdk_message_send_otp">为了验证这是您的电话号码，UniID会向您发送一条短信 6位验证码。 这将是 %s 中的数字.</string>
+    <string name="unisdk_minimum_length_otp">OTP 代码有6位数字</string>
+    <string name="unisdk_minimum_length_phone">Số điện thoại cần ít nhất 8 ký tự</string>
+    <string name="unisdk_minimum_length_user_name_char">输入8个或更。您可以输入文字或数字，或下溢堰。</string>
+    <string name="unisdk_new_password">新密码</string>
+    <string name="unisdk_next">下一个</string>
+    <string name="unisdk_notification">Thông báo</string>
+    <string name="unisdk_one_account_for_all_your_services">一个帐户即可使用您的所有服务</string>
+    <string name="unisdk_or_login_with">或登录跟</string>
+    <string name="unisdk_other">其他</string>
+    <string name="unisdk_otp_cannot_be_blank">OTP 代码不能为空</string>
+    <string name="unisdk_otp_code">OTP 代码</string>
+    <string name="unisdk_otp_not_correct">OTP 代码不正确</string>
+    <string name="unisdk_pass_conf_pass_not_same">确认密码不匹配</string>
+    <string name="unisdk_password">密码</string>
+    <string name="unisdk_password_cannot_be_blank">密码不能为空</string>
+    <string name="unisdk_passwordinvalid">密码不正确</string>
+    <string name="unisdk_phone_cannot_be_blank">电话号码不能为空</string>
+    <string name="unisdk_phone_email_username">电话/电子邮件/用户名</string>
+    <string name="unisdk_phone_email_username_cannot_be_blank">电话号码/电子邮件/用户名不能为空</string>
+    <string name="unisdk_phone_not_exist">电话号码不存在</string>
+    <string name="unisdk_phone_number">电话号码</string>
+    <string name="unisdk_phone_number_exist">该电话号码已被注册</string>
+    <string name="unisdk_phone_number_not_correct">无效的电话号码</string>
+    <string name="unisdk_phonenumberinvalid">无效的电话号码</string>
+    <string name="unisdk_privacy_and_terms">&lt;u>隐私权和条款&lt;/u></string>
+    <string name="unisdk_privacy_and_terms_title">隐私权和条款</string>
+    <string name="unisdk_prompt_email">电子邮件</string>
+    <string name="unisdk_prompt_password">密码</string>
+    <string name="unisdk_receive_confirmation_code">选择接收验证码的频道</string>
+    <string name="unisdk_recover_account">选择一种方法来恢复帐户</string>
+    <string name="unisdk_recovery">恢复</string>
+    <string name="unisdk_resend_otp">&lt;u>重新发送 OTP&lt;/u></string>
+    <string name="unisdk_same_old_password">密码不能与旧密码相同</string>
+    <string name="unisdk_save">笔记</string>
+    <string name="unisdk_second_step_verify">两步验证</string>
+    <string name="unisdk_send_otp">&lt;u>发 OTP&lt;/u></string>
+    <string name="unisdk_sent_otp_success">成功发送OTP代码到电话</string>
+    <string name="unisdk_sent_otp_success_email">成功发送OTP代码到电邮</string>
+    <string name="unisdk_sent_verification_code">带有6位数验证码的短信发送到 %s</string>
+    <string name="unisdk_sign_in">登录</string>
+    <string name="unisdk_sign_in_stead">&lt;u>登录&lt;/u></string>
+    <string name="unisdk_sign_up">注册!</string>
+    <string name="unisdk_sign_up_html">&lt;u>注册!&lt;/u></string>
+    <string name="unisdk_skip">跳过</string>
+    <string name="unisdk_try_another_way">尝试别一种方式</string>
+    <string name="unisdk_unspecific_error">系统有问题，请稍后再试</string>
+    <string name="unisdk_update_your_account">更新您的帐户</string>
+    <string name="unisdk_use_letters_only">您只能输入文字</string>
+    <string name="unisdk_user_your_phone_account">使用您的UniID电话帐户</string>
+    <string name="unisdk_user_your_uniid_account">使用您的UniID帐户</string>
+    <string name="unisdk_username">用户帐号</string>
+    <string name="unisdk_username_cannot_be_blank">用户帐号不能为空</string>
+    <string name="unisdk_username_exist">此帐户名已被注册</string>
+    <string name="unisdk_username_invalid">电话号码/电子邮件/用户名不正确</string>
+    <string name="unisdk_verification_code">从获取验证码 %s</string>
+    <string name="unisdk_verify">确认</string>
+    <string name="unisdk_verify_desc">使用UniID验证您的手机</string>
+    <string name="unisdk_verifying_your_phone_number">验证电话号码</string>
+    <string name="unisdk_vnese">Tiếng Việt</string>
+</resources>

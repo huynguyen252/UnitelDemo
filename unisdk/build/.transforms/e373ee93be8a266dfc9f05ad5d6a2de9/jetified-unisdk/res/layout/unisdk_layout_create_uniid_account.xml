@@ -1,0 +1,448 @@
+
+                                                        
+    
+                                           
+                 
+                            
+                                                                                          
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image" android:tag="layout/unisdk_layout_create_uniid_account_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/bg_border_view_login"
+            android:orientation="vertical"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:clickable="true"
+                android:id="@+id/layoutView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:tag="binding_1">
+
+                <include layout="@layout/unisdk_layout_header_logo_uniid"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:text="@string/unisdk_create_uniid_account"
+                    android:tag="unisdk_create_uniid_account"
+                    android:textColor="@color/orangeApp"
+                    android:textSize="@dimen/_40sdp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/unisdk_one_account_for_all_your_services"
+                    android:tag="unisdk_one_account_for_all_your_services"
+                    android:textColor="@color/textColorUnitel"
+                    android:textSize="@dimen/_16sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="@string/unisdk_phone_number"
+                            android:tag="unisdk_phone_number"
+                            android:textColor="@color/black" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/layoutPhoneNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:gravity="center"
+                            app:hintEnabled="false"
+                            app:suffixTextColor="@color/colorButton">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtPhoneNumber"
+                                android:theme="@style/WidgetTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:hint="@string/unisdk_hint_phone_number_create"
+                                android:tag="binding_2"                      
+                                android:inputType="number"
+                                android:maxLength="13"
+                                                                        
+                                android:textSize="@dimen/_14sdp"
+                                app:hintEnabled="false" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/txtPhoneNumberError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="@color/colorButton"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="@string/unisdk_first_name"
+                            android:tag="unisdk_first_name"
+                            android:textColor="@color/black" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/layout_first_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:gravity="center"
+                            app:hintEnabled="false"
+                            app:suffixTextColor="@color/colorButton">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtFirstName"
+                                android:theme="@style/WidgetTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:fontFamily="@font/roboto"
+                                android:hint="@string/unisdk_hint_first_name"
+                                android:tag="binding_3"             
+                                android:inputType="textPersonName"
+                                android:maxLength="32"
+                                                                      
+                                android:textSize="@dimen/_14sdp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/txtFirstNameError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="@color/colorButton"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="@string/unisdk_last_name"
+                            android:tag="unisdk_last_name"
+                            android:textColor="@color/black" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/layout_last_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:gravity="center"
+                            app:hintEnabled="false"
+                            app:suffixTextColor="@color/colorButton">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtLastName"
+                                android:theme="@style/WidgetTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:fontFamily="@font/roboto"
+                                android:hint="@string/unisdk_hint_last_name"
+                                android:tag="binding_4"            
+                                android:inputType="textPersonName"
+                                android:maxLength="32"
+                                                                     
+                                android:textSize="@dimen/_14sdp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/txtLastNameError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="@color/colorButton"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="@string/unisdk_username"
+                            android:tag="unisdk_username"
+                            android:textColor="@color/black" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/layouUsertName"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:gravity="center"
+                            app:hintEnabled="false"
+                            app:suffixTextColor="@color/colorButton">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtName"
+                                android:theme="@style/WidgetTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:hint="@string/unisdk_hint_username"
+                                android:tag="binding_5"           
+                                android:inputType="textPersonName"
+                                android:maxLength="32"
+                                                                     
+                                android:textSize="@dimen/_14sdp"
+                                app:hintEnabled="false" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/txtNameError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="@color/colorButton"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="@string/unisdk_password"
+                            android:tag="unisdk_password"
+                            android:textColor="@color/black" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/layoutPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_weight="1"
+                            app:suffixTextColor="@color/colorButton"
+                            app:hintEnabled="false"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            app:passwordToggleDrawable="@drawable/password"
+                            app:passwordToggleEnabled="true">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtPassword"
+                                android:theme="@style/WidgetTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:fontFamily="@font/roboto"
+                                android:hint="@string/unisdk_hint_password"
+                                android:tag="binding_6"           
+                                android:inputType="textPassword"
+                                android:maxLength="32"
+                                                                     
+                                android:textSize="@dimen/_14sdp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/txtPasswordError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="@color/colorButton"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="@string/unisdk_confirm_password"
+                            android:tag="unisdk_confirm_password"
+                            android:textColor="@color/black" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/layout_confirm_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:gravity="center"
+                            app:hintEnabled="false"
+                            app:suffixTextColor="@color/colorButton"
+                            app:passwordToggleDrawable="@drawable/password"
+                            app:passwordToggleEnabled="true">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtConfirmPassword"
+                                android:theme="@style/WidgetTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:fontFamily="@font/roboto"
+                                android:hint="@string/unisdk_hint_confirm_password"
+                                android:tag="binding_7"                   
+                                android:inputType="textPassword"
+                                android:maxLength="50"
+                                                                            
+                                android:textSize="@dimen/_14sdp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/txtConfirmPasswordError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="@color/colorButton"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.widget.Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_60sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/button_orange_5dp_corner_light_theme"
+                    android:text="@string/unisdk_next"
+                    android:tag="unisdk_next"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/btnSignInStead"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/unisdk_do_you_have_account"
+                        android:tag="unisdk_do_you_have_account"
+                        android:textColor="@color/textColorUnitel"
+                        android:textSize="16sp" />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tvSignInStead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="3dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/unisdk_sign_in_stead"
+                        android:tag="unisdk_sign_in_stead"
+                        android:textColor="@color/orangeApp"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="3dp" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPrivacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:padding="5dp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_40sdp"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:tag="unisdk_privacy_and_terms"
+                    android:textColor="@color/orangeApp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:tag="binding_8"                                           
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.ttc.uniid.customview.SpinView
+                android:layout_centerInParent="true"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

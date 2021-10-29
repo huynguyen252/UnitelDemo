@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unisdk_array_month">
+        <item> ມັງກອນ </item>
+        <item> ກຸມພາ </item>
+        <item> ມີນາ </item>
+        <item> ເມສາ </item>
+        <item> ພຶດສະພາ </item>
+        <item> ມິຖຸນາ </item>
+        <item> ກໍລະກົດ </item>
+        <item> ສິງຫາ </item>
+        <item> ກັນຍາ </item>
+        <item> ຕຸລາ </item>
+        <item> ພະຈິກ </item>
+        <item> ທັນວາ </item>
+    </string-array>
+    <string-array name="unisdk_days_array">
+        <item>ຈ</item>
+        <item>ອ</item>
+        <item>ພ</item>
+        <item>ພຫ</item>
+        <item>ສ</item>
+        <item>ສ</item>
+        <item>ອາ</item>
+    </string-array>
+    <string name="unisdk_Cancel">ຍົກເລີກ</string>
+    <string name="unisdk_Language">ພາ​ສາ</string>
+    <string name="unisdk_accept">ຍອມ​ຮັບ</string>
+    <string name="unisdk_account_does_not_exist">ບັນຊີນີ້ບໍ່ມີ​ຢູ່ໃນ​ລະບົບ</string>
+    <string name="unisdk_account_does_not_exist_2">ເບີໂທລະສັບ/ອີເມວ/ຊື່ບັນຊີ ບໍ່ມີໃນລະບົບ (ຫຼື ຊື່ບັນຊີດັ່ງກ່າວໄດ້ຖືກລົບອອກຈາກລະບົບ, ໃນກໍລະນີນີ້ຊື່ບັນຊີດັ່ງກ່າວແມ່ນບໍ່ສາມາດນຳໃຊ້ໄດ້ອີກ)</string>
+    <string name="unisdk_account_not_correct">ເບີ​ໂທ/ອີເມວ/ຊື່​ບັນ​ຊີ ບໍ່​ຖືກ​ຕ້​ອງ</string>
+    <string name="unisdk_action_sign_in_short">ລົງທະບຽນ</string>
+    <string name="unisdk_birth_day_not">Ngày sinh không hợp lệ</string>
+    <string name="unisdk_birthday">ວັນ​/ເດືອນ/​ປີເກີດ</string>
+    <string name="unisdk_change_language">ປ່ຽນ​ພາ​ສາ</string>
+    <string name="unisdk_change_login_method">ປ່ ຽນ ວິ ທີ\nເຂົ້າ ສູ່ ລະບົບ</string>
+    <string name="unisdk_change_pass">ປ່ຽນລະຫັດຜ່ານ</string>
+    <string name="unisdk_chinese">中文</string>
+    <string name="unisdk_choose_gender">ເລືອກເພດ</string>
+    <string name="unisdk_close">ປິດ</string>
+    <string name="unisdk_confirm_password">ຢືນຢັນລະຫັດຜ່ານ</string>
+    <string name="unisdk_confirm_password_cannot_be_blank">ຢືນຢັນລະຫັດຜ່ານບໍ່ສາມາດປະວ່າງໄດ້</string>
+    <string name="unisdk_content">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</string>
+    <string name="unisdk_content_privacy_and_terms">ລາຍລະອຽດຂອງຄວາມເປັນສ່ວນຕົວແລະຂໍ້ກຳນົດ"</string>
+    <string name="unisdk_continue_verify">ເພື່ອສືບຕໍ່, ກະລຸນາຢືນຢັນຕົວຕົນ</string>
+    <string name="unisdk_create_account_desc">ບັນຊີດຽວສຳລັບທຸກ​ບໍລິການຂອງທ່ານ</string>
+    <string name="unisdk_create_uniid_account">ສ້າງບັນຊີ UniID</string>
+    <string name="unisdk_demo_email">demo@gmail.com</string>
+    <string name="unisdk_do_you_have_account">ທ່ານ​ມີ​ບັນ​ຊີ​ແລ້ວ?</string>
+    <string name="unisdk_dont_have_account">ຍັງບໍ່ມີບັນຊີ?</string>
+    <string name="unisdk_email">ອີເມວ</string>
+    <string name="unisdk_emailinvalid">ອີເມວບໍ່​ຖືກ​ຕ້ອງ</string>
+    <string name="unisdk_english">English</string>
+    <string name="unisdk_error">Error</string>
+    <string name="unisdk_error_common">ລະບົບຂັດຂ້ອງ, ກະລຸນາລອງໃໝ່ອີກຄັ້ງ</string>
+    <string name="unisdk_error_email_owned_by_another">ອີເມວນີ້ມີຢູ່ແລ້ວ ຫຼື ຖືກນຳໃຊ້ໂດຍບັນຊີອື່ນແລ້ວ!</string>
+    <string name="unisdk_female">ເພດຍິງ</string>
+    <string name="unisdk_first_name">ຊື່</string>
+    <string name="unisdk_firstname_cannot_be_blank">ຊື່ບໍ່ສາມາດປະວ່າງໄດ້</string>
+    <string name="unisdk_forgot_pass">ລືມລະ​ຫັດຜ່ານ</string>
+    <string name="unisdk_forgot_password">&lt;u>ລືມລະຫັດຜ່ານ?&lt;/u></string>
+    <string name="unisdk_gender">ເພດ</string>
+    <string name="unisdk_generate_password">ກະ​ລຸ​ນາ​ໃສ່​ລະ​ຫັດ​ໃໝ່ທີ່​ຊັບ​ຊ້ອນ ແລະ​ ບໍ່​ເຄີຍ​ໃຊ້​ກັບເວັບ​ໃດ​ມາ​ກ່ອນ</string>
+    <string name="unisdk_hint_birthday">ວັນ/ເດືອນ/ປີເກີດ (ທາງ​ເລືອກ)</string>
+    <string name="unisdk_hint_confirm_password">ໃສ່ຢືນຢັນລະຫັດຜ່ານ</string>
+    <string name="unisdk_hint_email">ໃສ່ອີເມວ (ທາງເລືອກ)</string>
+    <string name="unisdk_hint_first_name">ໃສ່ຊື່</string>
+    <string name="unisdk_hint_gender">ເລືອກເພດ (ທາງເລືອກ)</string>
+    <string name="unisdk_hint_last_name">ໃສ່ນາມສະກຸນ</string>
+    <string name="unisdk_hint_new_password">ໃສ່​ລະ​ຫັດ​ຜ່ານ​ໃໝ່</string>
+    <string name="unisdk_hint_otp_code">ໃສ່ລະຫັດ OTP</string>
+    <string name="unisdk_hint_password">ໃສ່ລະຫັດຜ່ານ</string>
+    <string name="unisdk_hint_phone_email_username">ໃສ່ເບີໂທ/ອີເມວ/ຊື່ບັນ​ຊີ</string>
+    <string name="unisdk_hint_phone_number">ໃສ່ເບີໂທລະສັບ</string>
+    <string name="unisdk_hint_phone_number_create">ໃສ່ເບີໂທລະສັບ</string>
+    <string name="unisdk_hint_username">ໃສ່ຊື່ບັນຊີ</string>
+    <string name="unisdk_invalid_password_2">ກະ​ລຸ​ນາ​ໃສ່​ຕົວ​ອັກ​ສອນຢ່າງ​ໜ້ອຍ 8 ຕົວ​, ທ່ານບໍ່​ສາ​ມາດ​ໃສ່​ຍະ​ວ່າງ, ເຄື່ອງ​ໝາຍ (`), ເຄື່ອງ​ໝາຍ (\"), ເຄື່ອງໆ​ໝາຍ (\')</string>
+    <string name="unisdk_lao">ພາ​ສາ​ລາວ</string>
+    <string name="unisdk_last_name">ນາມສະກຸນ</string>
+    <string name="unisdk_lastname_cannot_be_blank">ນາມສະກຸນບໍ່ສາມາດປະວ່າງໄດ້</string>
+    <string name="unisdk_length_password">ລະ​ຫັດຜ່ານບໍ່ຖືກ​ຕ້ອງ</string>
+    <string name="unisdk_lock_account">ບັນຊີຖືກລັອກ ຫຼື ບໍ່ມີການເຄື່ອນໄຫວ!</string>
+    <string name="unisdk_lock_desc"><![CDATA[ທ່ານ​ໄດ້​ພະ​ຍາ​ຍາມ​ເຂົ້າ​ສູ່​ລະ​ບົບເກີນ​ຕາມ​ຈຳ​ນວນ​ທີ່​ໄດ້ກຳ​ນົດ​. ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ອີກ​ຄັ້ງ​ພາຍ​ຫຼັງ <font color="#F47920">24 ຊົ່ວ​ໂມງ</font>]]></string>
+    <string name="unisdk_lock_title">ບັນຊີຂອງທ່ານຖືກລັອກ</string>
+    <string name="unisdk_login">ເຂົ້າສູ່ລະບົບ</string>
+    <string name="unisdk_login_success">Đăng nhập thành công</string>
+    <string name="unisdk_login_with_otp">&lt;u>ເຂົ້າສູ່ລະ​ບົບດ້ວຍລະຫັດ OTP&lt;/u></string>
+    <string name="unisdk_login_with_password">&lt;u>ເຂົ້າສູ່ລະ​ບົບດ້ວຍ​ລະຫັດຜ່ານ&lt;/u></string>
+    <string name="unisdk_male">ເພດຊາຍ</string>
+    <string name="unisdk_mess_confirm_privacy_and_terms">ໂດຍການລົງທະບຽນ, ທ່ານຕົກລົງເຫັນດີກັບທຸກໆການເຮັດທຸລະກຳໂດຍອີງຕາມ ຄວາມເປັນສ່ວນຕົວ ແລະ ຂໍ້ກຳນົດຂອງ UniID</string>
+    <string name="unisdk_message_send_otp">ເພື່ອໃຫ້ແນ່ໃຈວ່າທ່ານແມ່ນເຈົ້າຂອງເບີໂທລະສັບນີ້, UniID ຈະສົ່ງຂໍ້ຄວາມຫາທ່ານດ້ວຍລະຫັດຢືນຢັນປະກອບມີ 6 ຕົວເລກ. ມາດຕະຖານໃຊ້ສຳລັບເບີ %s</string>
+    <string name="unisdk_minimum_length_otp">ລະຫັດ OTP ມີ 6 ຕົວ​ເລກ</string>
+    <string name="unisdk_minimum_length_phone">ເບີ​ໂທ​ລະ​ສັບ ບໍ່​ຖືກ​ຕ້ອງ</string>
+    <string name="unisdk_minimum_length_user_name_char">ກະລຸນາໃສ່ຕົວອັກສອນຢ່າງໜ້ອຍ 8 ຕົວຂື້ນໄປ, ທ່ານສາມາດໃສ່ຕົວໜັງສື, ຕົວເລກ ຫຼື ເຄື່ອງໝາຍຂີດກ້ອງ</string>
+    <string name="unisdk_new_password">ລະ​ຫັດ​ຜ່ານ​ໃຫມ່</string>
+    <string name="unisdk_next">ຕໍ່ໄປ</string>
+    <string name="unisdk_notification">ແຈ້ງການ</string>
+    <string name="unisdk_one_account_for_all_your_services">ບັນຊີດຽວ. ສາມາດນຳໃຊ້ໄດ້ທຸກບໍລິການ</string>
+    <string name="unisdk_or_login_with">ຫຼື ລົງທະບຽນດ້ວຍ</string>
+    <string name="unisdk_other">ອື່ນໆ</string>
+    <string name="unisdk_otp_cannot_be_blank">ລະຫັດ OTP ບໍ່ສາມາດປະວ່າງໄດ້</string>
+    <string name="unisdk_otp_code">ລະຫັດ OTP</string>
+    <string name="unisdk_otp_not_correct">ລະຫັດ OTP ບໍ່ຖືກຕ້ອງ</string>
+    <string name="unisdk_pass_conf_pass_not_same">ລະຫັດຜ່ານບໍ່ຕົງກັນ!</string>
+    <string name="unisdk_password">ລະຫັດຜ່ານ</string>
+    <string name="unisdk_password_cannot_be_blank">ລະຫັດຜ່ານບໍ່ສາມາດປະວ່າງໄດ້</string>
+    <string name="unisdk_passwordinvalid">ລະຫັດຜ່ານບໍ່ຖືກ​ຕ້ອງ</string>
+    <string name="unisdk_phone_cannot_be_blank">ເບີໂທລະສັບບໍ່ສາມາດປະວ່າງໄດ້</string>
+    <string name="unisdk_phone_email_username">ເບີໂທ/ອີເມວ/ຊື່ບັນຊີ</string>
+    <string name="unisdk_phone_email_username_cannot_be_blank">ເບີ​ໂທ/ອີເມວ/ຊື່​ບັນ​ຊີ ບໍ່​ສາ​ມາດ​ປະ​ວ່າງ​ໄດ້</string>
+    <string name="unisdk_phone_not_exist">ເບີໂທລະສັບນີ້ບໍ່ມີ​ຢູ່ໃນລະບົບ</string>
+    <string name="unisdk_phone_number">ເບີໂທລະສັບ</string>
+    <string name="unisdk_phone_number_exist">ເບີໂທລະສັບນີ້ໄດ້ລົງທະບຽນແລ້ວ</string>
+    <string name="unisdk_phone_number_not_correct">ເບີໂທລະສັບບໍ່ຖືກຕ້ອງ</string>
+    <string name="unisdk_phonenumberinvalid">ເບີໂທລະສັບບໍ່ຖືກຕ້ອງ</string>
+    <string name="unisdk_privacy_and_terms">&lt;u>ຄວາມເປັນສ່ວນຕົວ ແລະ ຂໍ້ກຳນົດ&lt;/u></string>
+    <string name="unisdk_privacy_and_terms_title">ຄວາມເປັນສ່ວນຕົວ ແລະ ຂໍ້ກຳນົດ</string>
+    <string name="unisdk_prompt_email">ອີເມວ</string>
+    <string name="unisdk_prompt_password">ລະຫັດຜ່ານ</string>
+    <string name="unisdk_receive_confirmation_code">ເລືອກ​ຊ່ອງ​ທາງ​ໃນ​ກາ​ນ​ຮັບ​ລ​ະ​ຫັດ​ຢືນຢັນ</string>
+    <string name="unisdk_recover_account">ເລືອກຊ່ອງທາງກູ້ຄືນ​ບັນ​ຊີຂອງທ່ານ</string>
+    <string name="unisdk_recovery">ກູ້ຄືນລະຫັດຜ່ານ</string>
+    <string name="unisdk_resend_otp">&lt;u>ສົ່ງລະຫັດ OTP ອີກຄັ້ງ&lt;/u></string>
+    <string name="unisdk_same_old_password">ລະຫັດຜ່ານບໍ່ສາມາດຄືກັນກັບລະຫັດຜ່ານເກົ່າ</string>
+    <string name="unisdk_save">ບັນ​ທຶກ</string>
+    <string name="unisdk_second_step_verify">ຢືນຢັນ 2 ຂັ້ນ​ຕອນ</string>
+    <string name="unisdk_send_otp">&lt;u>ສົ່ງລະຫັດ OTP&lt;/u></string>
+    <string name="unisdk_sent_otp_success">ສົ່ງລະຫັດ OTP ໄປໂທລະສັບສຳເລັດແລ້ວ</string>
+    <string name="unisdk_sent_otp_success_email">ລະຫັດ OTP ຖືກສົ່ງໄປທີ່ email ສຳເລັດແລ້ວ</string>
+    <string name="unisdk_sent_verification_code">ຂໍ້ຄວາມທີ່ມີລະ​ຫັດ​ຢືນຢັນ 6 ຕົວ​ເລກໄດ້​ສົ່ງ​ໄປ​ທີ່​%s ແລ້ວ</string>
+    <string name="unisdk_sign_in">ເຂົ້າສູ່ລະບົບ</string>
+    <string name="unisdk_sign_in_stead">&lt;u>ເຂົ້າສູ່ລະບົບ&lt;/u></string>
+    <string name="unisdk_sign_up">ລົງທະບຽນ!</string>
+    <string name="unisdk_sign_up_html">&lt;u>ລົງທະບຽນ!&lt;/u></string>
+    <string name="unisdk_skip">ຂ້າມ</string>
+    <string name="unisdk_try_another_way">ເລືອກ​​ວິທີອື່ນ</string>
+    <string name="unisdk_unspecific_error">ລະບົບຂັດຂ້ອງ, ກະ​ລຸນາລອງໃໝ່ອີກຄັ້ງ</string>
+    <string name="unisdk_update_your_account">ອັບເດດບັນຊີຂອງທ່ານ</string>
+    <string name="unisdk_use_letters_only">ທ່ານສາມາດໃສ່ໄດ້ແຕ່ຕົວໜັງສືເທົ່ານັ້ນ</string>
+    <string name="unisdk_user_your_phone_account">ໃຊ້ບັນຊີໂທລະສັບ UniID ຂອງທ່ານ</string>
+    <string name="unisdk_user_your_uniid_account">ນຳໃຊ້ບັນຊີ UniID ຂອງທ່ານ</string>
+    <string name="unisdk_username">ຊື່ບັນຊີ</string>
+    <string name="unisdk_username_cannot_be_blank">ຊື່ບັນ​ຊີບໍ່ສາມາດປະວ່າງໄດ້</string>
+    <string name="unisdk_username_exist">ຊື່ບັນຊີນີ້ໄດ້ລົງທະບຽນແລ້ວ</string>
+    <string name="unisdk_username_invalid">ເບີ​ໂທ/ອີເມວ/ຊື່​ບັນ​ຊີ ບໍ່​ຖືກ​ຕ້​ອງ</string>
+    <string name="unisdk_verification_code">ຮັບ​ລ​ະ​ຫັດຢືນຢັນຈາກ %s</string>
+    <string name="unisdk_verify">ຢືນຢັນ</string>
+    <string name="unisdk_verify_desc">ຢືນຢັນເບີ​ໂທ​ລະ​ສັບຂອງທ່ານດ້ວຍ UniID</string>
+    <string name="unisdk_verifying_your_phone_number">ຢືນຢັນເບີ​ໂທ​ລະ​ສັບ</string>
+    <string name="unisdk_vnese">Tiếng Việt</string>
+</resources>

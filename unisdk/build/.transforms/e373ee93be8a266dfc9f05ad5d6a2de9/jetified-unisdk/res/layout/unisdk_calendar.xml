@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/calendar_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/transparent"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:visibility="visible"
+                android:weightSum="4">
+
+                <ImageView
+                    android:id="@+id/imgLeftDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/icon_arrow_left"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/lnDatePickerMonth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.7">
+                    <TextView
+                        android:id="@+id/datePickerMonth"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_horizontal|bottom"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcDatePickerMonth"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_horizontal|bottom"
+                        tools:itemCount="2"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lnDatePickerYear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.1">
+
+                    <TextView
+                        android:id="@+id/datePickerYear"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="bottom"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcDatePickerYear"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_horizontal|bottom"
+                        tools:itemCount="2"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/imgRightDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/previous_month"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_left" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/next_month"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/next_month"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_right" />
+
+            <TextView
+                android:id="@+id/current_month"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@id/next_month"
+                android:layout_toRightOf="@id/previous_month"
+                android:gravity="center"
+                android:text="Jun 20210"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/calendar_days_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calendar_header"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:horizontalSpacing="1dp"
+            android:numColumns="7"
+            android:stretchMode="columnWidth" />
+
+        <ViewSwitcher
+            android:id="@+id/calendar_switcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calendar_days_grid"
+            android:animateLayoutChanges="true"
+            android:background="@color/transparent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/calendar_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="7"
+                android:stretchMode="columnWidth" />
+        </ViewSwitcher>
+
+        <View
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@+id/calendar_switcher"
+            android:background="#E4E4E4"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/calendar_switcher"
+            android:background="#E4E4E4"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

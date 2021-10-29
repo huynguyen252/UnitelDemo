@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent" android:tag="layout/unisdk_dialog_fragment_result_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/bg_dialog_corners_white"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="20dp">
+            <ImageView
+                android:layout_gravity="end"
+                android:id="@+id/imgClose"
+                android:padding="10dp"
+                android:src="@drawable/ic_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_title"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="@font/montserrat"
+                tools:text="@string/unisdk_notification"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:id="@+id/tvMessage"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                tools:text="@string/unisdk_lock_desc" />
+
+            <android.widget.Button
+                android:id="@+id/tv_action_1"
+                android:layout_width="match_parent"
+                android:background="@drawable/button_orange_5dp_corner_light_theme"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="false"
+                tools:text="@string/unisdk_save" />
+        </LinearLayout>
+    </FrameLayout>
+         

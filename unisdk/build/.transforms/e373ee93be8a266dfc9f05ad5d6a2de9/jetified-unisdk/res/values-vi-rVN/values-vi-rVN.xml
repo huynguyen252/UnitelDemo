@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unisdk_array_month">
+        <item> Tháng 1</item>
+        <item> Tháng 2</item>
+        <item> Tháng 3</item>
+        <item> Tháng 4</item>
+        <item> Tháng 5</item>
+        <item> Tháng 6</item>
+        <item> Tháng 7</item>
+        <item> Tháng 8</item>
+        <item> Tháng 9</item>
+        <item> Tháng 10</item>
+        <item> Tháng 11</item>
+        <item> Tháng 12</item>
+    </string-array>
+    <string-array name="unisdk_days_array">
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+        <item>T7</item>
+        <item>CN</item>
+    </string-array>
+    <string name="unisdk_Cancel">Hủy</string>
+    <string name="unisdk_Language">Ngôn ngữ</string>
+    <string name="unisdk_accept">Chọn</string>
+    <string name="unisdk_account_does_not_exist">Tài khoản không tồn tại</string>
+    <string name="unisdk_account_does_not_exist_2">Số điện thoại/Email/Tên đăng nhập không tồn tại (hoặc Tên đăng nhập được đăng ký nhưng đã bị xóa, trong trường hợp này Tên đăng nhập được tính là đã tồn tại)</string>
+    <string name="unisdk_account_not_correct">Số điện thoại/Email/Tên đăng nhập không đúng</string>
+    <string name="unisdk_action_sign_in_short">Đăng nhập</string>
+    <string name="unisdk_birth_day_not">Ngày sinh không hợp lệ</string>
+    <string name="unisdk_birthday">Ngày sinh</string>
+    <string name="unisdk_change_language">Thay đổi ngôn ngữ</string>
+    <string name="unisdk_change_login_method">Chuyển phương thức\nđăng nhập</string>
+    <string name="unisdk_change_pass">Đổi mật khẩu</string>
+    <string name="unisdk_chinese">中文</string>
+    <string name="unisdk_choose_gender">Chọn giới tính</string>
+    <string name="unisdk_close">Đóng</string>
+    <string name="unisdk_confirm_password">Xác nhận mật khẩu</string>
+    <string name="unisdk_confirm_password_cannot_be_blank">Mật khẩu xác nhận không được để trống</string>
+    <string name="unisdk_content">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</string>
+    <string name="unisdk_content_privacy_and_terms">Nội dung của điều khoản và chính sách sử dụng</string>
+    <string name="unisdk_continue_verify">Để tiếp tục, hãy xác minh đó là bạn</string>
+    <string name="unisdk_create_account_desc">Một tài khoản cho tất cả dịch vụ của bạn</string>
+    <string name="unisdk_create_uniid_account">Tạo tài khoản UniID</string>
+    <string name="unisdk_demo_email">demo@gmail.com</string>
+    <string name="unisdk_do_you_have_account">Bạn đã có tài khoản?</string>
+    <string name="unisdk_dont_have_account">Không có tài khoản?</string>
+    <string name="unisdk_email">Email</string>
+    <string name="unisdk_emailinvalid">Email không đúng</string>
+    <string name="unisdk_english">English</string>
+    <string name="unisdk_error">Lỗi</string>
+    <string name="unisdk_error_common">Hệ thống gặp sự cố, vui lòng thử lại sau</string>
+    <string name="unisdk_error_email_owned_by_another">Email này đã là chính hoặc thuộc sở hữu của người khác!</string>
+    <string name="unisdk_female">Nữ</string>
+    <string name="unisdk_first_name">Tên</string>
+    <string name="unisdk_firstname_cannot_be_blank">Tên không được để trống</string>
+    <string name="unisdk_forgot_pass">Quên mật khẩu</string>
+    <string name="unisdk_forgot_password">&lt;u>Quên mật khẩu?&lt;/u></string>
+    <string name="unisdk_gender">Giới tính</string>
+    <string name="unisdk_generate_password">Sử dụng một mật khẩu mạnh mà bạn không dùng cho các trang web khác</string>
+    <string name="unisdk_hint_birthday">Nhập ngày sinh (tùy chọn)</string>
+    <string name="unisdk_hint_confirm_password">Nhập mật khẩu xác nhận</string>
+    <string name="unisdk_hint_email">Nhập email (tùy chọn)</string>
+    <string name="unisdk_hint_first_name">Nhập tên</string>
+    <string name="unisdk_hint_gender">Chọn giới tính (tùy chọn)</string>
+    <string name="unisdk_hint_last_name">Nhập họ</string>
+    <string name="unisdk_hint_new_password">Nhập mật khẩu mới</string>
+    <string name="unisdk_hint_otp_code">Nhập mã OTP</string>
+    <string name="unisdk_hint_password">Nhập mật khẩu</string>
+    <string name="unisdk_hint_phone_email_username">Nhập số điện thoại/ Email/ Tên đăng nhập</string>
+    <string name="unisdk_hint_phone_number">Nhập số điện thoại</string>
+    <string name="unisdk_hint_phone_number_create">Nhập số điện thoại</string>
+    <string name="unisdk_hint_username">Nhập tên đăng nhập</string>
+    <string name="unisdk_invalid_password_2">Sử dụng ít nhất 8 ký tự, ngoại trừ dấu cách, dấu lùi (`), dấu nháy kép (\") và dấu nháy đơn (\')</string>
+    <string name="unisdk_lao">ພາ​ສາ​ລາວ</string>
+    <string name="unisdk_last_name">Họ</string>
+    <string name="unisdk_lastname_cannot_be_blank">Họ không được để trống</string>
+    <string name="unisdk_length_password">Mật khẩu không đúng</string>
+    <string name="unisdk_lock_account">Tài khoản bị khóa hoặc không hoạt động!</string>
+    <string name="unisdk_lock_desc"><![CDATA[Đã vượt quá số lần đăng nhập tối đa. Vui lòng thử lại sau <font color="#F47920">24 giờ</font>]]></string>
+    <string name="unisdk_lock_title">Tài khoản của bạn đã bị khóa</string>
+    <string name="unisdk_login">Đăng nhập</string>
+    <string name="unisdk_login_success">Đăng nhập thành công</string>
+    <string name="unisdk_login_with_otp">&lt;u>Đăng nhập với OTP&lt;/u></string>
+    <string name="unisdk_login_with_password">&lt;u>Đăng nhập với mật khẩu&lt;/u></string>
+    <string name="unisdk_male">Nam</string>
+    <string name="unisdk_mess_confirm_privacy_and_terms">Bằng cách đăng ký, bạn đã đồng ý với tất cả điều khoản và chính sách sử dụng của UniID</string>
+    <string name="unisdk_message_send_otp">Để đảm bảo rằng số điện thoại này là của bạn, UniID sẽ gửi cho bạn một tin nhắn với mã xác nhận gồm 6 chữ số. Cước phí chuẩn được áp dụng cho %s.</string>
+    <string name="unisdk_minimum_length_otp">Mã OTP có 6 ký tự</string>
+    <string name="unisdk_minimum_length_phone">Số điện thoại cần ít nhất 8 ký tự</string>
+    <string name="unisdk_minimum_length_user_name_char">Sử dụng ít nhất 8 ký tự, bao gồm chữ cái, số và dấu gạch dưới</string>
+    <string name="unisdk_new_password">Mật khẩu mới</string>
+    <string name="unisdk_next">Tiếp tục</string>
+    <string name="unisdk_notification">Thông báo</string>
+    <string name="unisdk_one_account_for_all_your_services">Một tài khoản cho tất cả dịch vụ của bạn</string>
+    <string name="unisdk_or_login_with">Hoặc đăng nhập với</string>
+    <string name="unisdk_other">Khác</string>
+    <string name="unisdk_otp_cannot_be_blank">Mã OTP không được để trống</string>
+    <string name="unisdk_otp_code">Mã OTP</string>
+    <string name="unisdk_otp_not_correct">Mã OTP không đúng</string>
+    <string name="unisdk_pass_conf_pass_not_same">Mật khẩu xác nhận không khớp</string>
+    <string name="unisdk_password">Mật khẩu</string>
+    <string name="unisdk_password_cannot_be_blank">Mật khẩu không được để trống</string>
+    <string name="unisdk_passwordinvalid">Mật khẩu không đúng</string>
+    <string name="unisdk_phone_cannot_be_blank">Số điện thoại không được để trống</string>
+    <string name="unisdk_phone_email_username">Số điện thoại/ Email/ Tên đăng nhập</string>
+    <string name="unisdk_phone_email_username_cannot_be_blank">Số điện thoại/ Email/ Tên đăng nhập không được để trống</string>
+    <string name="unisdk_phone_not_exist">Số điện thoại không tồn tại</string>
+    <string name="unisdk_phone_number">Số điện thoại</string>
+    <string name="unisdk_phone_number_exist">Số điện thoại đã tồn tại trong hệ thống</string>
+    <string name="unisdk_phone_number_not_correct">Sai định dạng số điện thoại</string>
+    <string name="unisdk_phonenumberinvalid">Sai định dạng số điện thoại</string>
+    <string name="unisdk_privacy_and_terms">&lt;u>Điều khoản và chính sách sử dụng&lt;/u></string>
+    <string name="unisdk_privacy_and_terms_title">Điều khoản và chính sách sử dụng</string>
+    <string name="unisdk_prompt_email">Email</string>
+    <string name="unisdk_prompt_password">Mật khẩu</string>
+    <string name="unisdk_receive_confirmation_code">Chọn một cách để gửi mã xác nhận</string>
+    <string name="unisdk_recover_account">Chọn một cách để khôi phục tài khoản</string>
+    <string name="unisdk_recovery">Khôi phục mật khẩu</string>
+    <string name="unisdk_resend_otp">&lt;u>Gửi lại OTP&lt;/u></string>
+    <string name="unisdk_same_old_password">Mật khẩu không được giống với mật khẩu cũ</string>
+    <string name="unisdk_save">Lưu</string>
+    <string name="unisdk_second_step_verify">Xác thực 2 bước</string>
+    <string name="unisdk_send_otp">&lt;u>Gửi OTP&lt;/u></string>
+    <string name="unisdk_sent_otp_success">Gửi mã OTP đến điện thoại thành công</string>
+    <string name="unisdk_sent_otp_success_email">Gửi mã OTP đến email thành công</string>
+    <string name="unisdk_sent_verification_code">Một tin nhắn văn bản với mã xác minh gồm 6 chữ số vừa được gửi đến %s</string>
+    <string name="unisdk_sign_in">Đăng nhập</string>
+    <string name="unisdk_sign_in_stead">&lt;u>Đăng nhập&lt;/u></string>
+    <string name="unisdk_sign_up">Đăng ký!</string>
+    <string name="unisdk_sign_up_html">&lt;u>Đăng ký!&lt;/u></string>
+    <string name="unisdk_skip">Bỏ qua</string>
+    <string name="unisdk_try_another_way">Chọn cách khác</string>
+    <string name="unisdk_unspecific_error">Hệ thống gặp sự cố, vui lòng thử lại sau</string>
+    <string name="unisdk_update_your_account">Cập nhật tài khoản của bạn</string>
+    <string name="unisdk_use_letters_only">Bạn chỉ có thể sử dụng các chữ cái</string>
+    <string name="unisdk_user_your_phone_account">Sử dụng số điện thoại UniID của bạn</string>
+    <string name="unisdk_user_your_uniid_account">Sử dụng tài khoản UniID của bạn</string>
+    <string name="unisdk_username">Tên đăng nhập</string>
+    <string name="unisdk_username_cannot_be_blank">Tên đăng nhập không được để trống</string>
+    <string name="unisdk_username_exist">Tên đăng nhập đã tồn tại trong hệ thống</string>
+    <string name="unisdk_username_invalid">Số điện thoại/Email/Tên đăng nhập không đúng</string>
+    <string name="unisdk_verification_code">Nhận mã xác thực tại %s</string>
+    <string name="unisdk_verify">Xác thực</string>
+    <string name="unisdk_verify_desc">Xác thực số điện thoại với UniID</string>
+    <string name="unisdk_verifying_your_phone_number">Xác thực số điện thoại</string>
+    <string name="unisdk_vnese">Tiếng Việt</string>
+</resources>

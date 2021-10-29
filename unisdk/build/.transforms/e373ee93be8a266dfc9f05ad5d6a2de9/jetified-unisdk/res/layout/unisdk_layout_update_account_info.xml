@@ -1,0 +1,381 @@
+
+                                                       
+                                                   
+
+    
+
+                                           
+
+                 
+                            
+                                                                                        
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image" android:tag="layout/unisdk_layout_update_account_info_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/bg_border_view_login"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/viewRoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_20sdp" android:tag="binding_1">
+
+                <include layout="@layout/unisdk_layout_header_logo_uniid" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:tag="unisdk_create_uniid_account"
+                    android:text="@string/unisdk_create_uniid_account"
+                    android:textColor="@color/orangeApp"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:tag="unisdk_update_your_account"
+                    android:text="@string/unisdk_update_your_account"
+                    android:textColor="@color/head_title"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lblAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:textColor="@color/head_title"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ln_user_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/lnEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:fontFamily="@font/roboto"
+                            android:tag="unisdk_email"
+                            android:text="@string/unisdk_email"
+                            android:textColor="@color/black" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/layoutEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:gravity="center"
+                            app:hintEnabled="false"
+                            app:suffixTextColor="@color/colorButton">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtEmail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:fontFamily="@font/roboto"
+                                android:gravity="center_vertical"
+                                android:hint="@string/unisdk_hint_email"
+                                android:inputType="textPersonName"
+                                android:maxLength="324"
+                                android:tag="binding_2"        
+                                                                  
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/uniid_grey"
+                                android:textSize="@dimen/_14sdp"
+                                android:theme="@style/EdittextCousor"
+                                app:hintEnabled="false" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/txtEmailError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="@color/colorButton"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnBirthday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:fontFamily="@font/roboto"
+                            android:tag="unisdk_birthday"
+                            android:text="@string/unisdk_birthday"
+                            android:textColor="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlBirthday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_border_edittext_10dp">
+
+                            <TextView
+                                android:id="@+id/edtBirthday"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_toStartOf="@+id/imgDownDate"
+                                android:layout_toLeftOf="@+id/imgDownDate"
+                                android:fontFamily="@font/roboto"
+                                android:gravity="center_vertical"
+                                android:hint="@string/unisdk_hint_birthday"
+                                android:maxLength="50"
+                                android:tag="binding_3"           
+                                                                     
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/uniid_grey"
+                                android:textSize="@dimen/_14sdp" />
+
+                            <ImageView
+                                android:id="@+id/imgDownDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnCalenderPicker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:gravity="right">
+
+                                <ImageView
+                                    android:id="@+id/imgUpDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:padding="10dp"
+                                    android:src="@drawable/arrow_up_grey" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lnCalenderView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <fragment
+                                    android:id="@+id/calendar_view"
+                                    android:name="com.ttc.uniid.calendar.CalendarView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_10sdp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnAcceptDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:background="@drawable/button_orange_5dp_corner_light_theme"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:padding="@dimen/_10sdp"
+                                android:tag="unisdk_accept"
+                                android:text="@string/unisdk_accept"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:fontFamily="@font/roboto"
+                            android:tag="unisdk_gender"
+                            android:text="@string/unisdk_gender"
+                            android:textColor="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlSpiner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_border_edittext_10dp">
+
+                            <TextView
+                                android:id="@+id/spnGender"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_toStartOf="@+id/imgDownGender"
+                                android:layout_toLeftOf="@+id/imgDownGender"
+                                android:fontFamily="@font/roboto"
+                                android:gravity="center_vertical"
+                                android:hint="@string/unisdk_hint_gender"
+                                android:maxLength="50"
+                                android:tag="unisdk_hint_gender"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/uniid_grey"
+                                android:textSize="@dimen/_14sdp" />
+
+                            <ImageView
+                                android:id="@+id/imgDownGender"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnSpnGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_border_edittext_10dp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:gravity="right"
+                                android:orientation="horizontal"
+                                android:weightSum="10">
+
+                                <ListView
+                                    android:id="@+id/lstGender"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/_100sdp"
+                                    android:layout_weight="9"
+                                    android:divider="@null"
+                                    android:dividerHeight="0dp"
+                                    android:scrollbars="none"
+                                    android:textColor="@color/black"
+                                    tools:listitem="@layout/unisdk_spinner_item_system" />
+
+                                <ImageView
+                                    android:id="@+id/imgUpGender"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:layout_weight="1"
+                                    android:padding="10dp"
+                                    android:src="@drawable/arrow_up_grey" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.widget.Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_60sdp"
+                    android:background="@drawable/button_orange_5dp_corner_light_theme"
+                    android:fontFamily="@font/montserrat"
+                    android:tag="unisdk_next"
+                    android:text="@string/unisdk_next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <android.widget.Button
+                    android:id="@+id/btnSkip"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:layout_marginRight="@dimen/_60sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/button_strock_orange_5dp_corner_light_theme"
+                    android:fontFamily="@font/montserrat"
+                    android:tag="unisdk_skip"
+                    android:text="@string/unisdk_skip"
+                    android:textAllCaps="false"
+                    android:textColor="@color/orangeApp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="binding_4"                                           >
+
+            <com.ttc.uniid.customview.SpinView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

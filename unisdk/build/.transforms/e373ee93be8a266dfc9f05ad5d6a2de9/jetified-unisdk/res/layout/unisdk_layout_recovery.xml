@@ -1,0 +1,180 @@
+
+                                                       
+                                                   
+
+    
+
+                 
+                            
+                                                                      
+
+                                           
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image" android:tag="layout/unisdk_layout_recovery_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/bg_border_view_login"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="20dp" android:tag="binding_1">
+
+            <include layout="@layout/unisdk_layout_header_logo_uniid"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="@string/unisdk_recovery"
+                android:tag="unisdk_recovery"
+                android:textColor="@color/orangeApp"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDesc"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/unisdk_demo_email"
+                android:textColor="@color/textColorUnitel"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/llSendOTPMethod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv2ndTitle"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/textColorUnitel"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/btnOTPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:id="@+id/tvOTPPhone"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_toLeftOf="@+id/imgNext"
+                        android:drawableStart="@drawable/ic_chat_online"
+                        android:drawableLeft="@drawable/ic_chat_online"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/unisdk_verification_code"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/imgNext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_arrow_right" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/uniid_grey" />
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/llVerifyByEmail"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:id="@+id/btnOTPEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tvOTPEmail"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:drawableStart="@drawable/ic_email"
+                            android:drawableLeft="@drawable/ic_email"
+                            android:drawablePadding="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toLeftOf="@+id/imgNext1"
+                            android:fontFamily="@font/roboto"
+                            android:text="@string/unisdk_verification_code"
+                            android:tag="unisdk_verification_code"
+                            android:textColor="@color/black"
+                            android:layout_toStartOf="@+id/imgNext1" />
+
+                        <ImageView
+                            android:id="@+id/imgNext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_arrow_right" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@color/uniid_grey" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:tag="binding_2"                                           
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.ttc.uniid.customview.SpinView
+                android:layout_centerInParent="true"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         
